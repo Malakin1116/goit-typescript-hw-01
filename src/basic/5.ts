@@ -24,17 +24,3 @@ enum DayOfWeek {
 const isWeekend = (day: DayOfWeek): boolean => {
   return day === DayOfWeek.Saturday || day === DayOfWeek.Sunday;
 };
-
-// const isWork = (day: DayOfWeek): boolean => {
-//   return (
-//     day === DayOfWeek.Monday ||
-//     day === DayOfWeek.Tuesday ||
-//     day === DayOfWeek.Wednesday ||
-//     day === DayOfWeek.Thursday ||
-//     day === DayOfWeek.Friday
-//   );
-// };
-
-// const isWorks = (day: DayOfWeek): boolean => {
-//   return !isWeekend(day);
-// };
